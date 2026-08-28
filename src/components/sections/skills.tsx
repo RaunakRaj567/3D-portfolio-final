@@ -13,23 +13,23 @@ const coreProficiencies = [
   { name: "🤖 Machine Learning & AI", value: 90 },
   { name: "🐍 Python Development", value: 88 },
   { name: "📊 Data Science & Analytics", value: 85 },
-  { name: "⚡ Automation & Scripting", value: 80 },
-  { name: "🌐 Web Development", value: 72 },
-  { name: "🧠 Deep Learning (DL)", value: 78 },
+  { name: "🧠 Deep Learning (PyTorch / TF)", value: 80 },
+  { name: "🌐 Web Dev (FastAPI / Flask)", value: 72 },
+  { name: "☕ Java & Systems (C)", value: 70 },
 ];
 
 const domains = [
   {
-    title: "🤖 Machine Learning & Deep Learning",
-    details: "CTR Prediction · Image Classification · Computer Vision",
+    title: "🔤 Languages",
+    details: "Python · Java · C · JavaScript · HTML/CSS · SQL",
   },
   {
-    title: "🔄 Automation & LLM Engineering",
-    details: "Prompt Engineering · Hugging Face · Workflow Automation",
+    title: "🛠️ Developer Tools",
+    details: "VS Code · Git · GitHub · Jupyter Notebooks · Google Colab",
   },
   {
-    title: "💻 Full-Stack Software Development",
-    details: "Spring Boot · Node.js · Express · Flask · SQL",
+    title: "⚙️ Technologies & Frameworks",
+    details: "PyTorch · TensorFlow · Scikit-learn · Streamlit · FastAPI · Flask",
   },
 ];
 

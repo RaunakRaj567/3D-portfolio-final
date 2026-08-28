@@ -18,6 +18,16 @@ export enum SkillNames {
   NPM = "npm",
   FIREBASE = "firebase",
   WORDPRESS = "wordpress",
+  // Languages
+  PYTHON_LANG = "python_lang",
+  JAVA = "java",
+  C_LANG = "c_lang",
+  JAVASCRIPT = "javascript",
+  HTML_CSS = "html_css",
+  SQL = "sql",
+  // Developer Tools
+  VSCODE = "vscode",
+  COLAB = "colab",
 }
 export type Skill = {
   id: number;
@@ -171,6 +181,72 @@ export const SKILLS: Record<SkillNames, Skill> = {
     shortDescription: "Containerization platform to package, distribute, and run applications consistently. 🐳📦",
     color: "#2496ed",
     icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg",
+  },
+  // ── Languages ──────────────────────────────────────────────────────────────
+  [SkillNames.PYTHON_LANG]: {
+    id: 19,
+    name: "python_lang",
+    label: "Keras",
+    shortDescription: "High-level neural network API built on top of TensorFlow for rapid prototyping. 🔬",
+    color: "#d00000",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/keras/keras-original.svg",
+  },
+  [SkillNames.JAVA]: {
+    id: 20,
+    name: "java",
+    label: "Java",
+    shortDescription: "Strongly typed, object-oriented language for backend and enterprise apps. ☕",
+    color: "#ed8b00",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg",
+  },
+  [SkillNames.C_LANG]: {
+    id: 21,
+    name: "c_lang",
+    label: "C",
+    shortDescription: "Low-level, high-performance systems programming language. ⚙️",
+    color: "#a8b9cc",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg",
+  },
+  [SkillNames.JAVASCRIPT]: {
+    id: 22,
+    name: "javascript",
+    label: "JavaScript",
+    shortDescription: "The language of the web — dynamic, event-driven, and everywhere. 🌐",
+    color: "#f7df1e",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  },
+  [SkillNames.HTML_CSS]: {
+    id: 23,
+    name: "html_css",
+    label: "HTML / CSS",
+    shortDescription: "Markup and styling fundamentals for building and designing web interfaces. 🎨",
+    color: "#e34f26",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  },
+  [SkillNames.SQL]: {
+    id: 24,
+    name: "sql",
+    label: "SQL",
+    shortDescription: "Structured query language for managing and querying relational databases. 🗄️",
+    color: "#336791",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg",
+  },
+  // ── Developer Tools ────────────────────────────────────────────────────────
+  [SkillNames.VSCODE]: {
+    id: 25,
+    name: "vscode",
+    label: "VS Code",
+    shortDescription: "Lightweight yet powerful source-code editor by Microsoft. 🖥️",
+    color: "#007acc",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg",
+  },
+  [SkillNames.COLAB]: {
+    id: 26,
+    name: "colab",
+    label: "Google Colab",
+    shortDescription: "Cloud-hosted Jupyter notebooks with free GPU/TPU access for ML experiments. 🔬",
+    color: "#f9ab00",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg",
   },
 };
 
