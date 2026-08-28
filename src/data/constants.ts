@@ -287,6 +287,54 @@ export const ACHIEVEMENTS: Achievement[] = [
   },
 ];
 
+export type Certificate = {
+  id: number;
+  emoji: string;
+  title: string;
+  issuer: string;
+  credentialId?: string;
+  year: string;
+  link?: string;
+};
+
+export const CERTIFICATES: Certificate[] = [
+  {
+    id: 1,
+    emoji: "☁️",
+    title: "Oracle Data Platform 2025 Certification",
+    issuer: "Oracle",
+    credentialId: "103478762OCI25DCFA",
+    year: "2025",
+    link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=76D6511EA97D7ED7ED34062EB5424BAC47FCD86D0FE37018165D93444B860AF7",
+  },
+  {
+    id: 2,
+    emoji: "✨",
+    title: "Gemini Certified University Student",
+    issuer: "Google",
+    credentialId: "186672334",
+    year: "2025",
+    link: "https://edu.google.accredible.com/04a0628a-5d19-457f-82c5-391979a97f14##acc.mXuytVwJ",
+  },
+  {
+    id: 3,
+    emoji: "☕",
+    title: "Learn JAVA Programming – Beginner to Master",
+    issuer: "Udemy",
+    year: "2024",
+    link: "https://www.udemy.com/certificate/UC-71e3e1b9-683b-43d1-887f-efbb799a8ae7/",
+  },
+  {
+    id: 4,
+    emoji: "🕸️",
+    title: "Mastering Data Scraping From Web to Insights Workshop",
+    issuer: "upGrad",
+    year: "2024",
+    link: "https://upgradcampus.certificate.givemycertificate.com/c/0f85e2f8-06f9-469d-bbb1-c1fc6a754a88",
+  },
+];
+
+
 export const themeDisclaimers = {
   light: [
     "Warning: Light mode emits a gazillion lumens of pure radiance!",
