@@ -124,12 +124,16 @@ const HeroSection = () => {
               <BlurIn delay={0.9}>
                 <div className="flex flex-wrap gap-4 md:gap-8 my-4 py-3 border-y border-border/50 w-full pointer-events-auto">
                   <div className="flex flex-col">
-                    <span className="text-2xl sm:text-3xl font-extrabold text-foreground font-display">5+</span>
-                    <span className="text-xs text-muted-foreground uppercase tracking-widest font-mono">Projects</span>
+                    <span className="text-2xl sm:text-3xl font-extrabold text-foreground font-display">7.5</span>
+                    <span className="text-xs text-muted-foreground uppercase tracking-widest font-mono">CGPA</span>
                   </div>
                   <div className="flex flex-col">
-                    <span className="text-2xl sm:text-3xl font-extrabold text-foreground font-display">18+</span>
-                    <span className="text-xs text-muted-foreground uppercase tracking-widest font-mono">Technologies</span>
+                    <span className="text-2xl sm:text-3xl font-extrabold text-foreground font-display">100+</span>
+                    <span className="text-xs text-muted-foreground uppercase tracking-widest font-mono">LeetCode</span>
+                  </div>
+                  <div className="flex flex-col">
+                    <span className="text-2xl sm:text-3xl font-extrabold text-foreground font-display">5+</span>
+                    <span className="text-xs text-muted-foreground uppercase tracking-widest font-mono">Projects</span>
                   </div>
                   <div className="flex flex-col">
                     <span className="text-2xl sm:text-3xl font-extrabold text-foreground font-display">AI Focused</span>
@@ -140,7 +144,7 @@ const HeroSection = () => {
 
               <BlurIn delay={1.1}>
                 <p className="text-sm sm:text-base md:text-lg text-slate-500 dark:text-zinc-400 leading-relaxed max-w-xl text-left pointer-events-auto">
-                  I am currently pursuing a Bachelor of Technology in Computer Science and Engineering with a specialization in Data Science and Machine Learning. With a strong interest in Artificial Intelligence and emerging technologies, I have developed diverse software solutions ranging from AI-driven data intelligence dashboards to real-time bidding platforms powered by machine learning. My experience also includes automation technologies, where I successfully built an automatic prompt generator.
+                  I am currently pursuing a Bachelor of Technology in Computer Science and Engineering with a specialization in Data Science and Machine Learning (CGPA 7.5/10). With a strong interest in Artificial Intelligence and emerging technologies, I have developed diverse software solutions ranging from AI-driven data intelligence dashboards to real-time bidding platforms powered by machine learning. My experience also includes automation technologies, where I successfully built an automatic prompt generator.
                 </p>
               </BlurIn>
 

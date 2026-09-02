@@ -141,24 +141,26 @@ This file captures all written information currently present in the portfolio co
 ### Achievement 1
 - Emoji: 🏆
 - Badge: Smart India Hackathon
-- Title: SIH 2nd Runner Up
-- Description: Secured the 2nd runner-up position at the university level for Smart India Hackathon, designing innovative tech-driven solutions.
+- Title: SIH 2025 3rd Position in Internal Round
+- Description: Secured 3rd position in the Internal Round for Smart India Hackathon 2025, designing innovative tech-driven solutions.
 
 ### Achievement 2
 - Emoji: 🚀
 - Badge: Hackathon Finalist
-- Title: 5x Inter-University Finalist
-- Description: Reached the finals across 5 prestigious national & collegiate hackathons, delivering high-impact prototypes under pressure.
+- Title: 6x University Level Hackathon Finalist
+- Description: Reached the finals across 6 university-level hackathons, delivering high-impact prototypes under pressure.
 
 ### Achievement 3
-- Emoji: 🔌
-- Title: Hardware Systems & IoT
-- Description: Gained practical, hands-on experience in building, troubleshooting, and prototyping hardware projects and microcontroller systems.
+- Emoji: 💻
+- Badge: LeetCode
+- Title: 100+ LeetCode Questions Solved
+- Description: Solved 100+ Data Structures & Algorithms problem-solving questions on LeetCode.
 
 ### Achievement 4
-- Emoji: 🤝
-- Title: Leadership & Communication
-- Description: Proven track record of coordinating technical teams, speaking at events, and driving collaborative project deliveries.
+- Emoji: 🎓
+- Badge: Education
+- Title: B.Tech CSE - CGPA 7.5/10
+- Description: Pursuing Bachelor of Technology in Computer Science & Engineering (Data Science & Machine Learning) with a CGPA of 7.5/10.
 
 ## Contact Section
 - Section tag: Let's Connect
