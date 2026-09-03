@@ -306,7 +306,7 @@ export const CERTIFICATES: Certificate[] = [
     title: "Oracle Data Platform 2025 Certification",
     issuer: "Oracle",
     credentialId: "103478762OCI25DCFA",
-    year: "2025",
+    year: "2026",
     link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=76D6511EA97D7ED7ED34062EB5424BAC47FCD86D0FE37018165D93444B860AF7",
   },
   {
@@ -315,7 +315,7 @@ export const CERTIFICATES: Certificate[] = [
     title: "Gemini Certificate University Student",
     issuer: "Google",
     credentialId: "186672334",
-    year: "2025",
+    year: "2026",
     link: "https://edu.google.accredible.com/04a0628a-5d19-457f-82c5-391979a97f14##acc.mXuytVwJ",
   },
   {
@@ -323,7 +323,7 @@ export const CERTIFICATES: Certificate[] = [
     emoji: "☕",
     title: "Learn Java Programming - Beginner to Master",
     issuer: "Udemy",
-    year: "2024",
+    year: "2025",
     link: "https://www.udemy.com/certificate/UC-71e3e1b9-683b-43d1-887f-efbb799a8ae7/",
   },
   {
@@ -331,7 +331,7 @@ export const CERTIFICATES: Certificate[] = [
     emoji: "🕸️",
     title: "Master Data Scraping From Web",
     issuer: "Udemy",
-    year: "2024",
+    year: "2026",
     link: "https://upgradcampus.certificate.givemycertificate.com/c/0f85e2f8-06f9-469d-bbb1-c1fc6a754a88",
   },
 ];
